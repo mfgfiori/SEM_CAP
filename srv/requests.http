@@ -1,0 +1,22 @@
+GET http://localhost:4004/catalog/Products
+
+### Create Product
+POST http://localhost:4004/catalog/Products
+Content-Type: application/json
+
+{
+    "ProductName" : "AAAA",
+    "Description": "36 Ounce Cans (Pack of 3)",
+      "ImageUrl": "/products/webapp/assets/pink-lemonade.jpg",
+      "ReleaseDate": "2006-11-05T00:00:00Z",
+      "DiscontinuedDate": null,
+      "Price": 18.8,
+      "Height": "5",
+      "Width": 10,
+      "Depth": 8,
+      "Quantity": 6,
+      "ToUnitOfMeasure_ID": "PC",
+      "ToCurrency_ID": "USD",
+      "CurrencyId": "USD",
+      "ToCategory_ID": "B"
+}
